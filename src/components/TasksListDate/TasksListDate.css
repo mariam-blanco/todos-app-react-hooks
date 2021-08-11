@@ -1,0 +1,25 @@
+.tasks-date {
+  display: flex;
+  align-items: center;
+  margin-left: var(--base-space);
+  margin-top: var(--base-space);
+  padding-bottom: 12px;
+}
+
+.tasks-date__month-num {
+  margin-right: 8px;
+  font-size: 34px;
+  font-weight: 800;
+}
+.tasks-date__week-day,
+.tasks-date__month {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.tasks-date__week-day {
+  font-weight: 600;
+}
+.tasks-date__month {
+  color: var(--primary-color-l);
+}

@@ -1,0 +1,41 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px var(--border-color);
+  padding: 8px var(--base-space);
+  background-color: var(--task-bg-color);
+  font-size: 15px;
+}
+
+.task.task--done {
+  color: var(--disabled-color);
+}
+
+.task--done p {
+  text-decoration: line-through;
+}
+
+.task .task__checkbox {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  font-size: 24px;
+  border: solid 2px var(--primary-color);
+  border-radius: 50%;
+}
+
+.task .fa-check-circle {
+  border: 0;
+}
+
+.task .task__title {
+  flex: 1;
+}
+
+.task .task__icon-delete {
+  font-size: 24px;
+  padding: 0;
+  color: var(--disabled-color);
+}

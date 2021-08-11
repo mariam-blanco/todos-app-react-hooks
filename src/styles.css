@@ -1,0 +1,40 @@
+:root {
+  --primary-color: hsl(251, 38%, 32%);
+  --primary-color-l: hsla(251, 38%, 32%, 0.45);
+  --secondary-color: hsl(248, 27%, 84%);
+  --main-bg-color: hsl(210, 16%, 98%);
+  --task-bg-color: hsl(240, 20%, 99%);
+  --disabled-color: hsl(248, 25%, 89%);
+  --placeholder-color: hsl(240, 4%, 70%);
+  --btn-color: #ff5252;
+  --border-color: hsl(240, 22%, 96%);
+  --font-family-main: "Roboto", Arial, Helvetica, sans-serif;
+  --base-space: 22px;
+}
+
+/* --- Resets --- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  font-family: var(--font-family-main);
+}
+
+input {
+  box-shadow: none;
+  outline: none;
+}
+
+button {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}

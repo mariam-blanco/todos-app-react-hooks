@@ -1,10 +1,12 @@
 # Todo list app - React Hooks
 
+[mariam-blanco.github.io/todos-react-hooks](https://mariam-blanco.github.io/todos-react-hooks)
+
 ## General info
 
 This is a training repo to practice the React Hooks, `localStorage` and the use an configuration of linters (ESlint).
 
-![To Do List App Gif](https://github.com/mariam-blanco/to-do-list-app/blob/main/src/media/to-do-app.gif)
+![To Do List App Gif](https://github.com/mariam-blanco/to-do-list-app/blob/main/src/assets/to-do-app.gif)
 
 ## Technologies
 

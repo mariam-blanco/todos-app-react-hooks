@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "build": "rm -rf .cache dist && parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "prettier \"src/**/*.{js,jsx}\" --quiet"
   },
   "keywords": [],
+  "homepage": "https://mariam-blanco.github.io/todos-react-hooks/",
   "author": "Mariam Blanco",
   "license": "ISC",
   "devDependencies": {
@@ -21,6 +24,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "parcel": "^1.12.3",
+    "gh-pages": "^3.2.3",
     "prettier": "^2.3.2"
   },
   "dependencies": {

@@ -14,8 +14,6 @@ This is a training repo to practice the React Hooks, `localStorage` and the use 
 - HTML
 - CSS
 
-> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Inspiration
 
 #### Visual design

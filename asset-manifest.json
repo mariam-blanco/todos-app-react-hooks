@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/todos-app-react-hooks/static/css/main.e8b53352.css",
+    "main.css": "/todos-app-react-hooks/static/css/main.d225764b.css",
     "main.js": "/todos-app-react-hooks/static/js/main.dc3720f4.js",
     "static/media/check_circle.svg": "/todos-app-react-hooks/static/media/check_circle.c0bca3cecb41614d64fc.svg",
     "index.html": "/todos-app-react-hooks/index.html",
-    "static/media/circle.svg": "/todos-app-react-hooks/static/media/circle.22c40859bcc7bd7227e9.svg",
-    "main.e8b53352.css.map": "/todos-app-react-hooks/static/css/main.e8b53352.css.map",
+    "static/media/circle.svg": "/todos-app-react-hooks/static/media/circle.2e4197cbf334d49fb756.svg",
+    "main.d225764b.css.map": "/todos-app-react-hooks/static/css/main.d225764b.css.map",
     "main.dc3720f4.js.map": "/todos-app-react-hooks/static/js/main.dc3720f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8b53352.css",
+    "static/css/main.d225764b.css",
     "static/js/main.dc3720f4.js"
   ]
 }

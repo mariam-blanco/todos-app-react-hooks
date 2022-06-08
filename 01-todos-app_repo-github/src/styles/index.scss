@@ -1,0 +1,28 @@
+@use 'resets';
+
+:root {
+  --primary-color: hsl(251, 38%, 32%);
+  --primary-color-l: hsla(251, 38%, 32%, 0.45);
+  --secondary-color: hsl(248, 27%, 84%);
+  --bg-color: hsl(210, 16%, 98%);
+  --task-bg-color: hsl(240, 20%, 99%);
+  --task-disabled-color: hsl(248, 25%, 89%);
+  --input-placeholder-color: hsl(240, 4%, 70%);
+  --btn-bg: #ff5252;
+  --border-color: hsl(240, 22%, 96%);
+  --font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  --font-size: 15px;
+  --base-space: 22px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 15px;
+
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+}

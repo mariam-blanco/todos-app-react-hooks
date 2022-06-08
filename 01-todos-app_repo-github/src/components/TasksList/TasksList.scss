@@ -1,0 +1,11 @@
+.tasks {
+  flex: 1;
+  overflow: scroll;
+  
+  &__list {
+    border-top: solid 1px var(--border-color);
+    padding: 0;
+  }
+}
+
+

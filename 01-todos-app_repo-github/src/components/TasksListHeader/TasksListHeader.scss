@@ -1,0 +1,33 @@
+
+.tasks__header { 
+  margin-left: var(--base-space);
+  margin-top: var(--base-space);
+  padding-bottom: 12px;
+
+  .tasks-date { 
+    display: flex;
+    align-items: center;
+
+    %date-text-sm {
+      font-size: 14px;
+      line-height: 14px;
+    }
+    
+    &__month-day{
+      margin-right: 8px;
+      font-size: 34px;
+      font-weight: 800;
+    }
+    
+    &__week-day{
+      @extend %date-text-sm;
+      font-weight: 600;
+    }
+
+    &__month {
+      @extend %date-text-sm;
+      color: var(--primary-color-l);
+    }
+  }
+}
+

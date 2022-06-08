@@ -1,0 +1,36 @@
+{
+  "name": "todos-app-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mariam-blanco.github.io/todos-app-react-hooks",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.52.1",
+    "gh-pages": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  } 
+}

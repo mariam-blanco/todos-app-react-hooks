@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a img {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  input,
+  button {
+    font-family: var(--font-family);
+  }
+  
+  input {
+    font-size: var(--font-size);
+    box-shadow: none;
+    outline: none;
+  }
+  
+  button {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    box-shadow: none;
+  }

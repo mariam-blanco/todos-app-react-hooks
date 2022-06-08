@@ -1,34 +1,41 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-import "./Task.css";
+import { useContext } from "react";
+import { TasksDispatch } from "../../context/TasksDispatch";
 
-const Task = ({ task, completeTask, removeTask }) => {
+import "./Task.scss";
+
+const Task = ({ task }) => {
+  const dispatch = useContext(TasksDispatch);
+
   const handleComplete = (taskId) => {
-    completeTask(taskId);
+    dispatch({ type: "completeTask", payload: taskId });
   };
 
-  const handleRemove = (taskId) => {
-    removeTask(taskId);
+  const handleDelete = (taskId) => {
+    dispatch({ type: "deleteTask", payload: taskId });
   };
-
-  const removeBtn = (
-    <button
-      onClick={() => handleRemove(task.id)}
-      className="task__icon-delete"
-      type="button"
-    >
-      &times;
-    </button>
-  );
 
   return (
     <li className={`task${task.isDone ? " task--done" : ""}`}>
-      <span
-        onClick={() => handleComplete(task.id)}
-        className={`task__checkbox ${task.isDone ? "far fa-check-circle" : ""}`}
-      />
-      <p className="task__title">{task.title}</p>
-      {task.isDone && removeBtn}
+      <div className="task__checkbox">
+        <span
+          onClick={() => handleComplete(task.id)}
+          className="task__checkbox-icon"
+        />
+      </div>
+      <div className="task__title">
+        <p>{task.title}</p>
+      </div>
+      <div className="task__delete">
+        {task.isDone && (
+          <button
+            onClick={() => handleDelete(task.id)}
+            className="task__delete-icon"
+            type="button"
+          >
+            &times;
+          </button>
+        )}
+      </div>
     </li>
   );
 };

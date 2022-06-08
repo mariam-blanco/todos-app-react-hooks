@@ -1,9 +1,0 @@
-.tasks-list {
-  flex: 1;
-  overflow: scroll;
-}
-
-.tasks-list ul {
-  border-top: solid 1px var(--border-color);
-  padding: 0;
-}
